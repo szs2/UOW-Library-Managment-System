@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+:visited, a:link{
+    color: #607D8B;
+}
+nav a
+
+nav a.active{
+    color: #039be5;
+}  
+body,html {
+    height: 100%;
+}

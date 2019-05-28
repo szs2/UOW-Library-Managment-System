@@ -1,0 +1,35 @@
+
+html,body{
+    background-image: url('https://unsplash.com/photos/YLSwjSy7stw');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+    
+	.panel-heading {
+		padding: 5px 15px;
+	}
+	
+	.panel-footer {
+		padding: 1px 15px;
+		color: #A0A0A0;
+	}
+	
+	.profile-img {
+		width: 96px;
+		height: 96px;
+		margin: 0 auto 10px;
+		display: block;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+
+	.backimg{
+    background-image: url('https://img.freepik.com/foto-gratis/enfoque-selectivo-libro-abierto-sobre-fondo-verde-natural-borrosa_9555-259.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+    

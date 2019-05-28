@@ -1,0 +1,93 @@
+<div class="backimg">
+    <br><br><br>
+    <div class="container">
+        <form class="form-horizontal" role="form" [formGroup]="booksForm" (ngSubmit)="postBookData()">
+            <h2>Add Book</h2>
+            <div class="form-group">
+                <label for="isbm" class="col-sm-3 control-label">ISBN</label>
+                <div class="col-sm-9">
+                    <input type="integer" id="isbm" required="" placeholder="ISBN" class="form-control" formControlName="ISBN">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="title" class="col-sm-3 control-label">Title</label>
+                <div class="col-sm-9">
+                    <input type="text" id="title" required="" placeholder="Title of the Book" class="form-control"
+                        formControlName="Title">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="col-sm-3 control-label">Author</label>
+                <div class="col-sm-9">
+                    <input type="text" required="" id="author" placeholder="Author" class="form-control"
+                        formControlName="Author">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="publisher" class="col-sm-3 control-label">Publisher</label>
+                <div class="col-sm-9">
+                    <input type="text" required="" id="publisher" placeholder="Publisher" class="form-control"
+                        formControlName="Publisher">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="noofpages" class="col-sm-3 control-label">Number of pages</label>
+                <div class="col-sm-9">
+                    <input type="integer" required="" id="numofpages" placeholder="Number Of Pages" class="form-control"
+                        formControlName="no_of_pages">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sector" class="col-sm-3 control-label">Sector</label>
+                <div class="col-sm-9">
+                    <input type="text" id="sector" required="" placeholder="Sector" class="form-control"
+                        formControlName="Sector">
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="isbm" class="col-sm-3 control-label">Pubication Date</label>
+                <div class="col-sm-9">
+                    <input type="integer" id="isbm" required="" placeholder="Date" class="form-control" formControlName="Date">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="isbm" class="col-sm-3 control-label">Publication Month</label>
+                <div class="col-sm-9">
+                    <input type="integer" id="isbm" required="" placeholder="Month" class="form-control"
+                        formControlName="Month">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="isbm" class="col-sm-3 control-label">Publication Year</label>
+                <div class="col-sm-9">
+                    <input type="integer" id="isbm" required="" placeholder="Year" class="form-control" formControlName="Year">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="submit" value="submit" name="submit" class="btn btn-primary btn-block">Add</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="reset" class="btn btn-primary btn-block">clear</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="" class="btn btn-primary btn-block" routerLink="/add" routerLinkactive="active">Back</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

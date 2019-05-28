@@ -1,0 +1,64 @@
+<div class="backimg">
+    <br><br><br>
+    <div class="container">
+        <form class="form-horizontal" role="form" [formGroup]="readerForm" (ngSubmit)="addrerMethod()">
+            <h2>Register Reader</h2>
+            <div class="form-group">
+                <label for="nic" class="col-sm-3 control-label">NIC</label>
+                <div class="col-sm-9">
+                    <input type="integer" required="" id="nic" placeholder="NIC" class="form-control" formControlName="m_id">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">First Name</label>
+                <div class="col-sm-9">
+                    <input type="text" required="" id="fname" placeholder="First Name" class="form-control"
+                        formControlName="f_name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">Last Name</label>
+                <div class="col-sm-9">
+                    <input type="text" required="" id="lname" placeholder="Last Name" class="form-control"
+                        formControlName="l_name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="mnum" class="col-sm-3 control-label">Mobile Number</label>
+                <div class="col-sm-9">
+                    <input type="integer" required="" id="mnum" placeholder="Mobile Number" class="form-control"
+                        formControlName="m_number">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="col-sm-3 control-label">E-mail Address</label>
+                <div class="col-sm-9">
+                    <input type="text" required="" id="email" placeholder="E-Mail" class="form-control" formControlName="m_email">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="register" class="btn btn-primary btn-block">Add</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="reset" class="btn btn-primary btn-block">Clear</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="" class="btn btn-primary btn-block" routerLink="/main" routerLinkactive="active">Back</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

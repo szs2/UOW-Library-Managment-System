@@ -1,0 +1,26 @@
+.backimg{
+    background-image: url('https://static1.squarespace.com/static/5a963e1a1137a60b45455f0c/t/5b1f635f03ce64d7a2fb816b/1528783713144/book.jpg?format=1500w');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+    
+
+
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
